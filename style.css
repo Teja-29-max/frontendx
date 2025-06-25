@@ -1,0 +1,108 @@
+/* Base Reset */
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body {
+  font-family: 'Segoe UI', sans-serif;
+  background: #f2f4f8;
+  color: #222;
+  line-height: 1.6;
+}
+
+/* Header */
+header {
+  background-color: #004aad;
+  color: white;
+  text-align: center;
+  padding: 2rem;
+  border-bottom-left-radius: 25px;
+  border-bottom-right-radius: 25px;
+}
+
+header h1 {
+  font-size: 2rem;
+  margin-bottom: 0.5rem;
+}
+
+/* Main Layout */
+.components {
+  padding: 2rem;
+  max-width: 800px;
+  margin: auto;
+}
+
+section {
+  margin-bottom: 2rem;
+}
+
+/* Card Component */
+.demo-card {
+  background-color: white;
+  border-radius: 12px;
+  padding: 1.5rem;
+  box-shadow: 0 6px 16px rgba(0,0,0,0.1);
+  transition: transform 0.3s ease;
+}
+
+.demo-card:hover {
+  transform: scale(1.02);
+}
+
+.demo-card button {
+  margin-top: 1rem;
+}
+
+/* Buttons */
+.button-group {
+  display: flex;
+  gap: 1rem;
+  margin-top: 1rem;
+}
+
+.btn {
+  padding: 10px 18px;
+  font-size: 1rem;
+  border: none;
+  border-radius: 8px;
+  cursor: pointer;
+  transition: background 0.3s ease;
+}
+
+.primary {
+  background-color: #0077cc;
+  color: white;
+}
+
+.primary:hover {
+  background-color: #005fa3;
+}
+
+.secondary {
+  background-color: #e0e0e0;
+  color: #333;
+}
+
+.secondary:hover {
+  background-color: #c5c5c5;
+}
+
+.danger {
+  background-color: #e63946;
+  color: white;
+}
+
+.danger:hover {
+  background-color: #c62828;
+}
+
+/* Footer */
+footer {
+  text-align: center;
+  font-size: 0.9rem;
+  margin-top: 4rem;
+  padding: 1rem;
+  color: #666;
+}
